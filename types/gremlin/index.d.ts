@@ -223,7 +223,9 @@ declare namespace process {
 
     const order: {
         asc: EnumValue;
+        incr: EnumValue;
         desc: EnumValue;
+        decr: EnumValue;
         shuffle: EnumValue;
     };
 

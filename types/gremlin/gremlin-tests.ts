@@ -264,7 +264,9 @@ function predefinedEnumTests() {
     operator.sum.toString() === "sum";
     operator.sumLong.toString() === "sumLong";
     order.asc.toString() === "asc";
+    order.incr.toString() === "incr";
     order.desc.toString() === "desc";
+    order.decr.toString() === "decr";
     order.shuffle.toString() === "shuffle";
     pick.any.toString() === "any";
     pick.none.toString() === "none";
